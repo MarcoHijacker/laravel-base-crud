@@ -1,0 +1,31 @@
+// SCSS per laravel-base-crud
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+  ul {
+    list-style: none;
+    margin: 2px 0;
+    border: solid 2px orange;
+    width: 250px;
+    background-color: #217f80;
+    li {
+      font-weight: bolder;
+      color: white;
+      margin: 5px;
+    }
+  }
+  h3 {
+    color: orange;
+  }
+  header, footer {
+    margin: 20px 0;
+  }
+}
