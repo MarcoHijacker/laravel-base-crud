@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eaeaea;
+  color: darkcyan;
+  font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body ul {
+  margin: 20px 0;
+}
+
+.delete {
+  color: red;
+  font-weight: bold;
+}
+
+.edit {
+  color: orange;
+  font-weight: bold;
+}
+

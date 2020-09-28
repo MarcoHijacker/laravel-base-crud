@@ -1,0 +1,31 @@
+// Laravel - Pagamenti CRUD - SASS css
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eaeaea;
+  color: darkcyan;
+  font-family: 'Roboto Condensed', sans-serif;
+  // width: 100vw;
+  // height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  ul {
+    margin: 20px 0;
+  }
+}
+
+.delete {
+  color: red;
+  font-weight: bold;
+}
+.edit {
+  color: orange;
+  font-weight: bold;
+}
